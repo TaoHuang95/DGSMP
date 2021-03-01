@@ -66,5 +66,5 @@ Computer Vision (ECCV), August 2020.
 
 ## Contact
 Tao Huang, Xidian University, Email: thuang_666@stu.xidian.edu.cn, thuang951223@163.com  
-Weisheng Dong, Xidian University, Email: wsdong@mail.xidian.edu.cn
+Weisheng Dong, Xidian University, Email: wsdong@mail.xidian.edu.cn \\
 Xin Yuan, Bell Labs, Email: xin_x.yuan@nokia-bell-labs.com
