@@ -13,9 +13,9 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
-parser = argparse.ArgumentParser(description="PyTorch HSIFUSION")
-parser.add_argument('--data_path', default='E:/实验区/TSA-Net-master/TSA-Net-master/TSA_Net_simulation/Data/Testing_data/', type=str,help='path of data')
-parser.add_argument('--mask_path', default='G:/实验结果/2020-08_光谱压缩重构/Data/Train/mask.mat', type=str,help='path of mask')
+parser = argparse.ArgumentParser(description="PyTorch Spectral Compressive Imaging")
+parser.add_argument('--data_path', default='./Data/Testing_data/', type=str,help='path of data')
+parser.add_argument('--mask_path', default='./Data/mask.mat', type=str,help='path of mask')
 parser.add_argument("--size", default=256, type=int, help='the size of trainset image')
 parser.add_argument("--trainset_num", default=2000, type=int, help='total number of trainset')
 parser.add_argument("--testset_num", default=10, type=int, help='total number of testset')
@@ -45,7 +45,7 @@ dataset = dataset(opt, HR_HSI)
 loader_train = tud.DataLoader(dataset, batch_size=opt.batch_size)
 
 
-for i in range(1, 215):  # number of model.pth
+for i in range(194, 195):  # number of model.pth
     model = torch.load("./checkpoint/model_%03d.pth"%i)
     model = model.eval()
     model = dataparallel(model, 1)
@@ -67,10 +67,10 @@ for i in range(1, 215):  # number of model.pth
         psnr = compare_psnr(result.cpu().numpy(), label.cpu().numpy(), data_range=1.0)
         psnr_total = psnr_total + psnr
         k = k + 1
-        # print(psnr)  # every test picture's psnr
-        # res = result.cpu().permute(2,3,1,0).squeeze(3).numpy()
-        # save_path = './result/' + str(j + 1) + '.mat'
-        # sio.savemat(save_path, {'res':res})
+        print(psnr)  # every test picture's psnr
+        res = result.cpu().permute(2,3,1,0).squeeze(3).numpy()
+        save_path = './result/' + str(j + 1) + '.mat'
+        sio.savemat(save_path, {'res':res})
 
     print(k)
     print("model %d, Avg PSNR = %.4f" % (i, psnr_total/k))
