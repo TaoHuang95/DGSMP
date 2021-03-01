@@ -4,7 +4,7 @@ This repository contains the codes for paper **Deep Gaussian Scale Mixture Prior
 
 ## Contents
 1. [Overview](#Overview)
-2. [Network](#Architecture)
+2. [Architecture](#Architecture)
 3. [Usage](#Usage)
 4. [Acknowledgements](#Acknowledgements)
 5. [Contact](#Contact)
@@ -27,7 +27,7 @@ that the proposed method outperforms existing state-of-the-art algorithms.
 </p>
 Fig. 1 A single shot measurement captured by [18] and 28 reconstructed spectral channels using our proposed method.
 
-## Network Architecture
+## Architecture
 <p align="center">
 <img src="/Images/Fig2.png" width="1200">
 </p>
