@@ -16,7 +16,7 @@ imaging. Different from existing works, our network is inspired by the Gaussian 
 the desired hyperspectral images were characterized by the GSM models and then the reconstruction problem was 
 formulated as a MAP estimation problem. Instead of using a manually designed prior, we have proposed to learn the
 scale prior of GSM by a DCNN. Furthermore, motivated by the auto-regressive model, the means of the GSM models
-have been estimated as a weighted average of the spatialspectral neighboring pixels, and these filter coefficients are
+have been estimated as a weighted average of the spatial-spectral neighboring pixels, and these filter coefficients are
 estimated by a DCNN as well aiming to learn sufficient spatial-spectral correlations of HSIs. Extensive 
 experimental results on both synthetic and real datasets demonstrate that the proposed method outperforms 
 existing state-of-the-art algorithms.
