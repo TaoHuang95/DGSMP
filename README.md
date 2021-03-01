@@ -47,9 +47,9 @@ or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/main.zip)
 
 ### Testing 
 1. Testing on simulation data   
-Run **Simulation/test.py** to reconstruct 10 synthetic datasets. The results will be saved in 'Simulation/Results/' in the MatFile format.  
+Run **Simulation/test.py** to reconstruct 10 synthetic datasets ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)). The results will be saved in 'Simulation/Results/' in the MatFile format.  
 2. Testing on real data   
-Run **Real/test.py** to reconstruct 5 real datasets. The results will be saved in 'Real/Results/' in the MatFile format.  
+Run **Real/test.py** to reconstruct 5 real datasets ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)). The results will be saved in 'Real/Results/' in the MatFile format.  
 
 ### Training 
 1. Training simulation model
