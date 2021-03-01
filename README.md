@@ -53,10 +53,10 @@ Run **Real/test.py** to reconstruct 5 real datasets. The results will be saved i
 
 ### Training 
 1. Training simulation model
-    1) Put hyperspectral datasets (Ground truth) and mask into corrsponding path, i.e., 'Simulation/Data/Training_data/'.
+    1) Put hyperspectral datasets (Ground truth) into corrsponding path, i.e., 'Simulation/Data/Training_data/'.
     2) Run **Simulation/train.py**.
 2. Training real data model  
-    1) Put hyperspectral datasets (Ground truth) and mask into corrsponding path, i.e., 'Real/Data/Training_data/'.  
+    1) Put hyperspectral datasets (Ground truth) into corrsponding path, i.e., 'Real/Data/Training_data/'.  
     2) Run **Real/train.py**.
 
 ## Acknowledgements
