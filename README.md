@@ -12,11 +12,11 @@ This repository contains the Pytorch codes for paper **Deep Gaussian Scale Mixtu
 
 ## Overview
 We have proposed an interpretable hyperspectral image reconstruction method for coded aperture snapshot spectral
-imaging. Different from existing works, our network is inspired by the Gaussian scale mixture (GSM) prior. Specifically,
+imaging. Different from existing works, our network was inspired by the Gaussian scale mixture (GSM) prior. Specifically,
 the desired hyperspectral images were characterized by the GSM models and then the reconstruction problem was 
 formulated as a MAP estimation problem. Instead of using a manually designed prior, we have proposed to learn the
 scale prior of GSM by a DCNN. Furthermore, motivated by the auto-regressive model, the means of the GSM models
-have been estimated as a weighted average of the spatial-spectral neighboring pixels, and these filter coefficients are
+have been estimated as a weighted average of the spatial-spectral neighboring pixels, and these filter coefficients were
 estimated by a DCNN as well aiming to learn sufficient spatial-spectral correlations of HSIs. Extensive 
 experimental results on both synthetic and real datasets demonstrate that the proposed method outperforms 
 existing state-of-the-art algorithms.
