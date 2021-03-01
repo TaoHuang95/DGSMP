@@ -66,7 +66,7 @@ for i in range(194, 195):  # number of model.pth
         k = k + 1
         print(psnr)  # every test picture's psnr
         res = result.cpu().permute(2,3,1,0).squeeze(3).numpy()
-        save_path = './result/' + str(j + 1) + '.mat'
+        save_path = './Results/' + str(j + 1) + '.mat'
         sio.savemat(save_path, {'res':res})
 
     print(k)
