@@ -7,7 +7,8 @@ This repository contains the codes for paper **Deep Gaussian Scale Mixture Prior
 2. [Architecture](#Architecture)
 3. [Usage](#Usage)
 4. [Acknowledgements](#Acknowledgements)
-5. [Contact](#Contact)
+5. [References](#References)
+6. [Contact](#Contact)
 
 ## Overview
 We have proposed an interpretable hyperspectral image
@@ -25,7 +26,7 @@ that the proposed method outperforms existing state-of-the-art algorithms.
 <p align="center">
 <img src="/Images/Fig1.png" width="1200">
 </p>
-Fig. 1 A single shot measurement captured by [18] and 28 reconstructed spectral channels using our proposed method.
+Fig. 1 A single shot measurement captured by [1] and 28 reconstructed spectral channels using our proposed method.
 
 ## Architecture
 <p align="center">
@@ -59,7 +60,11 @@ Run **Real/test.py** to reconstruct 5 real datasets. The results will be saved i
     2) Run **Real/train.py**.
 
 ## Acknowledgements
-We thank the author of TSA-Net ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)) for providing simulation and real data.
+We thank the author of TSA-Net[1] ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)) for providing simulation and real data.
+
+## References
+[1] Ziyi Meng, Jiawei Ma, and Xin Yuan. End-to-end low cost compressive spectral imaging with spatial-spectral selfattention. In Proceedings of the European Conference on
+Computer Vision (ECCV), August 2020.
 
 ## Contact
 Tao Huang, Xidian University, Email: thuang_666@stu.xidian.edu.cn, thuang951223@163.com  
