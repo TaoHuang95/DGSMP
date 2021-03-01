@@ -4,7 +4,7 @@ This repository contains the codes for paper **Deep Gaussian Scale Mixture Prior
 
 ## Contents
 1. [Overview](#Overview)
-2. [Network Architecture](# Network Architecture)
+2. [Network](#Architecture)
 3. [Usage](#Usage)
 4. [Acknowledgements](#Acknowledgements)
 5. [Contact](#Contact)
