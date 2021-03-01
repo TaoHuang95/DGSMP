@@ -1,7 +1,7 @@
 clear all;clc;
-gt_path = 'E:\实验区\TSA-Net-master\TSA-Net-master\TSA_Net_simulation\Data\Testing_data\';
+gt_path = './Data/Testing_data/';
 
-res_path = 'G:\实验结果\2020-08_光谱压缩重构\Code\Our_submit_code\result\';
+res_path = './Results/';
 
 Test_file       =    {'scene01','scene02','scene03','scene04','scene05','scene06','scene07','scene08','scene09','scene10'};
 
