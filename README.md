@@ -42,7 +42,7 @@ the measurement matrix, (c) the transposed version of the measurement matrix, (d
 ```
 git clone https://github.com/TaoHuang95/DGSMP
 ```
-or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/master.zip) manually.
+or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/main.zip) manually.
 
 
 ### Testing 
