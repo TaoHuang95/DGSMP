@@ -3,13 +3,13 @@ This repository contains the codes for paper **Deep Gaussian Scale Mixture Prior
  
 
 ## Contents
-1. [Overviewer](#Overviewer)
+1. [Overview](#Overview)
 2. [Network Architecture](#Network Architecture)
 3. [Usage](#Usage)
 4. [Acknowledgements](#acknowledgements)
 5. [Contact](#Contact)
 
-## Overviewer
+## Overview
 We have proposed an interpretable hyperspectral image
 reconstruction method for coded aperture snapshot spectral
 imaging. Different from existing works, our network is inspired by the Gaussian scale mixture prior. Specifically,
