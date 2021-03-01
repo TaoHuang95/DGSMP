@@ -32,8 +32,8 @@ if __name__=="__main__":
 
     ## Model Config
     parser = argparse.ArgumentParser(description="PyTorch Spectral Compressive Imaging")
-    parser.add_argument('--data_path', default='G:/实验结果/2020-08_光谱压缩重构/Data/Train/CAVE_512_28/', type=str,help='Path of data')
-    parser.add_argument('--mask_path', default='G:/实验结果/2020-08_光谱压缩重构/Data/Train/mask.mat', type=str,help='Path of mask')
+    parser.add_argument('--data_path', default='./Data/Training_data/', type=str,help='Path of data')
+    parser.add_argument('--mask_path', default='./Data/mask.mat', type=str,help='Path of mask')
     parser.add_argument("--size", default=96, type=int, help='The training image size')
     parser.add_argument("--trainset_num", default=20000, type=int, help='The number of training samples of each epoch')
     parser.add_argument("--testset_num", default=10, type=int, help='Total number of testset')
