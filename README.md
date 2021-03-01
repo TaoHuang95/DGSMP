@@ -58,7 +58,7 @@ Run **Real/test.py** to reconstruct 5 real datasets ([Ziyi Meng](https://github.
     2) Run **Real/train.py**.
 
 ## Acknowledgements
-We thank the author of TSA-Net[1] ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)) for providing simulation and real data.
+We thank the author of TSA-Net[1] ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)) for providing simulation data and real data.
 
 ## References
 [1] Ziyi Meng, Jiawei Ma, and Xin Yuan. End-to-end low cost compressive spectral imaging with spatial-spectral self-attention. In Proceedings of the European Conference on
