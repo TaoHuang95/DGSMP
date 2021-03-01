@@ -47,23 +47,23 @@ or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/master.zi
 
 ### Testing 
 1. Testing on simulation data   
-Run **Simulation/test.py** to reconstruct 10 synthetic datasets. The results will be saved in 'Simulation/Result/Testing-Result/' in the MatFile format.  
+Run **Simulation/test.py** to reconstruct 10 synthetic datasets. The results will be saved in 'Simulation/Results/' in the MatFile format.  
 2. Testing on real data   
-Run **Real/test.py** to reconstruct 5 real datasets. The results will be saved in 'Real/Result/Testing-Result/' in the MatFile format.  
+Run **Real/test.py** to reconstruct 5 real datasets. The results will be saved in 'Real/Results/' in the MatFile format.  
 
 ### Training 
 1. Training simulation model
-    1) Put hyperspectral datasets (Ground truth) and mask into corrsponding path, i.e., 'Simulation/Data/Training_truth/'.
+    1) Put hyperspectral datasets (Ground truth) and mask into corrsponding path, i.e., 'Simulation/Data/Training_data/'.
     2) Run **Simulation/train.py**.
 2. Training real data model  
-    1) Put hyperspectral datasets (Ground truth) and mask into corrsponding path, i.e., 'Real/Data/Training_truth/'.  
+    1) Put hyperspectral datasets (Ground truth) and mask into corrsponding path, i.e., 'Real/Data/Training_data/'.  
     2) Run **Real/train.py**.
 
 ## Acknowledgements
 We thank the author of TSA-Net[1] ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)) for providing simulation and real data.
 
 ## References
-[1] Ziyi Meng, Jiawei Ma, and Xin Yuan. End-to-end low cost compressive spectral imaging with spatial-spectral selfattention. In Proceedings of the European Conference on
+[1] Ziyi Meng, Jiawei Ma, and Xin Yuan. End-to-end low cost compressive spectral imaging with spatial-spectral self-attention. In Proceedings of the European Conference on
 Computer Vision (ECCV), August 2020.
 
 ## Contact
