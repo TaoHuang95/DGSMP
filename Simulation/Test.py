@@ -13,9 +13,9 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
-parser = argparse.ArgumentParser(description="PyTorch HSIFUSION")
-parser.add_argument('--data_path', default='E:/实验区/TSA-Net-master/TSA-Net-master/TSA_Net_simulation/Data/Testing_data/', type=str,help='path of data')
-parser.add_argument('--mask_path', default='G:/实验结果/2020-08_光谱压缩重构/Data/Train/mask.mat', type=str,help='path of mask')
+parser = argparse.ArgumentParser(description="PyTorch Spectral Compressive Imaging")
+parser.add_argument('--data_path', default='./Data/Testing_data/', type=str,help='path of data')
+parser.add_argument('--mask_path', default='./Data/mask.mat', type=str,help='path of mask')
 parser.add_argument("--size", default=256, type=int, help='the size of trainset image')
 parser.add_argument("--trainset_num", default=2000, type=int, help='total number of trainset')
 parser.add_argument("--testset_num", default=10, type=int, help='total number of testset')
@@ -35,9 +35,6 @@ def prepare_data_test(path, file_num):
     HR_HSI[HR_HSI < 0.] = 0.
     HR_HSI[HR_HSI > 1.] = 1.
     return HR_HSI
-
-
-key = 'test_set.txt'
 
 HR_HSI = prepare_data_test(opt.data_path,  10)
 
