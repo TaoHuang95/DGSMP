@@ -1,5 +1,5 @@
 # Deep GSM prior for CASSI
-This repository contains the Pytorch codes for paper **Deep Gaussian Scale Mixture Prior for Spectral Compressive Imaging** (***CVPR (2021)***) by [Tao Huang](https://github.com/TaoHuang95), [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/), [Xin Yuan](http://www.bell-labs.com/about/researcher-profiles/xyuan/). [[pdf]]()  
+This repository contains the Pytorch codes for paper **Deep Gaussian Scale Mixture Prior for Spectral Compressive Imaging** (***CVPR (2021)***) by [Tao Huang](https://github.com/TaoHuang95), [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/), [Xin Yuan](http://www.bell-labs.com/about/researcher-profiles/xyuan/).  
  
 
 ## Contents
