@@ -294,10 +294,10 @@ class HSI_CS(nn.Module):
                 fufea = self.Den_con4(torch.cat(feature_list, 1))
             # elif i == 4:
             #     feature_list.append(fea)
-            #     fufea = self.head4(torch.cat(feature_list, 1))
+            #     fufea = self.Den_con5(torch.cat(feature_list, 1))
             # elif i == 5:
             #     feature_list.append(fea)
-            #     fufea = self.head5(torch.cat(feature_list, 1))
+            #     fufea = self.Den_con6(torch.cat(feature_list, 1))
 
             E1, E2, E3, E4, E5 = self.Encoding(fufea)
             W, f1, f2, f3 = self.Decoding(E1, E2, E3, E4, E5)
