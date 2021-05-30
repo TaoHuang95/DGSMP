@@ -43,6 +43,9 @@ git clone https://github.com/TaoHuang95/DGSMP
 ```
 or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/main.zip) manually.
 
+### Download the training data
+1. CAVE (https://pan.baidu.com/s/1PcpjIoiMvJCiY7ED1SENQQ) PSW:oqwj
+
 
 ### Testing 
 1. Testing on simulation data   
