@@ -2,15 +2,6 @@
 This repository contains the Pytorch codes for paper **Deep Gaussian Scale Mixture Prior for Spectral Compressive Imaging** (***CVPR (2021)***) by [Tao Huang](https://github.com/TaoHuang95), [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/), [Xin Yuan](http://www.bell-labs.com/about/researcher-profiles/xyuan/).  
 [[pdf](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Deep_Gaussian_Scale_Mixture_Prior_for_Spectral_Compressive_Imaging_CVPR_2021_paper.pdf)] [[arXiv](https://arxiv.org/pdf/2103.07152.pdf)] [[Project](https://see.xidian.edu.cn/faculty/wsdong/Projects/DGSM-SCI.htm)] [[supp](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Huang_Deep_Gaussian_Scale_CVPR_2021_supplemental.pdf)]
 
-Bibtex
-    @InProceedings{Huang_2021_CVPR,
-           author    = {Huang, Tao and Dong, Weisheng and Yuan, Xin and Wu, Jinjian and Shi, Guangming},
-           title     = {Deep Gaussian Scale Mixture Prior for Spectral Compressive Imaging},
-           booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-           month     = {June},
-           year      = {2021},
-           pages     = {16216-16225}
-    }
  
 
 ## Contents
@@ -19,7 +10,8 @@ Bibtex
 3. [Usage](#Usage)
 4. [Acknowledgements](#Acknowledgements)
 5. [References](#References)
-6. [Contact](#Contact)
+6. [Citation](#Citation)
+7. [Contact](#Contact)
 
 ## Overview
 We have proposed an interpretable hyperspectral image reconstruction method for coded aperture snapshot spectral
@@ -77,6 +69,19 @@ We thank the author of TSA-Net[1] ([Ziyi Meng](https://github.com/mengziyi64/TSA
 ## References
 [1] Ziyi Meng, Jiawei Ma, and Xin Yuan. End-to-end low cost compressive spectral imaging with spatial-spectral self-attention. In Proceedings of the European Conference on
 Computer Vision (ECCV), August 2020.
+
+## Citation
+
+If you find our work useful for your research, please consider citing the following papers :)
+
+```
+@inproceedings{zhou2020cross,
+title={Cross-scale internal graph neural network for image super-resolution},
+author={Zhou, Shangchen and Zhang, Jiawei and Zuo, Wangmeng and Loy, Chen Change},
+booktitle={Advances in Neural Information Processing Systems},
+year={2020}
+}
+```
 
 ## Contact
 Tao Huang, Xidian University, Email: thuang_666@stu.xidian.edu.cn, thuang951223@163.com  
