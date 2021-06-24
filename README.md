@@ -75,11 +75,13 @@ Computer Vision (ECCV), August 2020.
 If you find our work useful for your research, please consider citing the following papers :)
 
 ```
-@inproceedings{zhou2020cross,
-title={Cross-scale internal graph neural network for image super-resolution},
-author={Zhou, Shangchen and Zhang, Jiawei and Zuo, Wangmeng and Loy, Chen Change},
-booktitle={Advances in Neural Information Processing Systems},
-year={2020}
+@InProceedings{Huang_2021_CVPR,
+    author    = {Huang, Tao and Dong, Weisheng and Yuan, Xin and Wu, Jinjian and Shi, Guangming},
+    title     = {Deep Gaussian Scale Mixture Prior for Spectral Compressive Imaging},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {16216-16225}
 }
 ```
 
