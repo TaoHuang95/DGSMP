@@ -54,7 +54,7 @@ if __name__=="__main__":
     HR_HSI = prepare_data(opt.data_path, file_list, 30)
 
     ## Load trained model
-    initial_epoch = findLastCheckpoint(save_dir="./checkpoint")  # load the last model in matconvnet style
+    initial_epoch = findLastCheckpoint(save_dir="./checkpoint")  
     if initial_epoch > 0:
         print('Load model: resuming by loading epoch %03d' % initial_epoch)
         model = torch.load(os.path.join("./checkpoint", 'model_%03d.pth' % initial_epoch))
