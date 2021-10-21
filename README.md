@@ -46,7 +46,7 @@ git clone https://github.com/TaoHuang95/DGSMP
 or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/main.zip) manually.
 
 ### Download the training data
-1. CAVE (https://pan.baidu.com/s/1ue26weBAbn61a7hyT9CDkg) PW:ixoe
+1. CAVE:28 channels (https://pan.baidu.com/s/1ue26weBAbn61a7hyT9CDkg) PW:ixoe
 
 
 ### Testing 
