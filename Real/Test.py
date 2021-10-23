@@ -40,7 +40,7 @@ HR_HSI = prepare_data(opt.data_path, 5)
 # loader_train = tud.DataLoader(dataset, batch_size=opt.batch_size)
 
 for i in range(50,101,5):  # number of model.pth
-    model = torch.load("./checkpoint/model_%03d.pth"%i)
+    model = torch.load("./Checkpoint/model_%03d.pth"%i)
     model = model.eval()
     model = dataparallel(model, 1)
     psnr_total = 0
