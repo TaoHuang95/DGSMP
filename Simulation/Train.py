@@ -54,10 +54,10 @@ if __name__=="__main__":
     HR_HSI = prepare_data(opt.data_path, file_list, 30)
 
     ## Load trained model
-    initial_epoch = findLastCheckpoint(save_dir="./checkpoint")  
+    initial_epoch = findLastCheckpoint(save_dir="./Checkpoint")  
     if initial_epoch > 0:
         print('Load model: resuming by loading epoch %03d' % initial_epoch)
-        model = torch.load(os.path.join("./checkpoint", 'model_%03d.pth' % initial_epoch))
+        model = torch.load(os.path.join("./Checkpoint", 'model_%03d.pth' % initial_epoch))
 
 
     ## Loss function
@@ -99,4 +99,4 @@ if __name__=="__main__":
         elapsed_time = time.time() - start_time
         print('epcoh = %4d , loss = %.10f , time = %4.2f s' % (epoch + 1, epoch_loss / len(Dataset), elapsed_time))
         np.savetxt('train_result.txt', np.hstack((epoch + 1, epoch_loss / i, elapsed_time)), fmt='%2.4f')
-        torch.save(model, os.path.join("./checkpoint", 'model_%03d.pth' % (epoch + 1)))
+        torch.save(model, os.path.join("./Checkpoint", 'model_%03d.pth' % (epoch + 1)))
