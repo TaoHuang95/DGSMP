@@ -43,7 +43,7 @@ loader_train = tud.DataLoader(dataset, batch_size=opt.batch_size)
 
 
 for i in range(194, 195):  # number of model.pth
-    model = torch.load("./checkpoint/model_%03d.pth"%i)
+    model = torch.load("./Checkpoint/model_%03d.pth"%i)
     model = model.eval()
     model = dataparallel(model, 1)
     psnr_total = 0
