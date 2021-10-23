@@ -59,11 +59,11 @@ for i in range(50,101,5):  # number of model.pth
             # result[result < 0.] = 0.
             # result[result > 1.] = 1.
         k = k + 1
-        model_dir = './Result/' + str(i)
+        model_dir = './Results/' + str(i)
         if not os.path.isdir(model_dir):  # Create the model directory if it doesn't exist
             os.makedirs(model_dir)
         res = result.cpu().permute(2,3,1,0).squeeze(3).numpy()
-        save_path = './Result/' + str(i) + '/' + str(j + 1) + '.mat'
+        save_path = './Results/' + str(i) + '/' + str(j + 1) + '.mat'
         sio.savemat(save_path, {'res':res})
 
     print(k)
