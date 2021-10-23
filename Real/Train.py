@@ -63,10 +63,10 @@ if __name__=="__main__":
     KAIST = prepare_data_KASIT(opt.data_path_KAIST, file_list2, 30)
 
     ## Load trained model
-    initial_epoch = findLastCheckpoint(save_dir="./checkpoint")  # load the last model in matconvnet style
+    initial_epoch = findLastCheckpoint(save_dir="./Checkpoint")  # load the last model in matconvnet style
     if initial_epoch > 0:
         print('Load model: resuming by loading epoch %03d' % initial_epoch)
-        model = torch.load(os.path.join("./checkpoint", 'model_%03d.pth' % initial_epoch))
+        model = torch.load(os.path.join("./Checkpoint", 'model_%03d.pth' % initial_epoch))
 
     ## Loss function
     criterion = nn.L1Loss()
@@ -104,4 +104,4 @@ if __name__=="__main__":
 
         elapsed_time = time.time() - start_time
         print('epcoh = %4d , loss = %.10f , time = %4.2f s' % (epoch + 1, epoch_loss / len(Dataset), elapsed_time))
-        torch.save(model, os.path.join("./checkpoint", 'model_%03d.pth' % (epoch + 1)))
+        torch.save(model, os.path.join("./Checkpoint", 'model_%03d.pth' % (epoch + 1)))
