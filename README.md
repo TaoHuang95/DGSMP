@@ -53,7 +53,7 @@ or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/main.zip)
 1. Testing on simulation data   
 Run **Simulation/test.py** to reconstruct 10 synthetic datasets ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)). The results will be saved in 'Simulation/Results/' in the MatFile format.  
 2. Testing on real data   
-Run **Real/test.py** to reconstruct 5 real datasets ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)). The results will be saved in 'Real/Results/' in the MatFile format.  
+Run **Real/Test.py** to reconstruct 5 real datasets ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)). The results will be saved in 'Real/Results/' in the MatFile format.  
 
 ### Training 
 1. Training simulation model
@@ -61,7 +61,7 @@ Run **Real/test.py** to reconstruct 5 real datasets ([Ziyi Meng](https://github.
     2) Run **Simulation/train.py**.
 2. Training real data model  
     1) Put hyperspectral datasets (Ground truth) into corrsponding path, i.e., 'Real/Data/Training_data/'.  
-    2) Run **Real/train.py**.
+    2) Run **Real/Train.py**.
 
 ## Acknowledgements
 We thank the author of TSA-Net[1] ([Ziyi Meng](https://github.com/mengziyi64/TSA-Net)) for providing simulation data and real data.
