@@ -97,6 +97,6 @@ if __name__=="__main__":
                     epoch + 1, i, len(Dataset)// opt.batch_size, epoch_loss / ((i+1) * opt.batch_size), datetime.datetime.now()))
 
         elapsed_time = time.time() - start_time
-        print('epcoh = %4d , loss = %.10f , time = %4.2f s' % (epoch + 1, epoch_loss / len(Dataset), elapsed_time))
+        print('epoch = %4d , loss = %.10f , time = %4.2f s' % (epoch + 1, epoch_loss / len(Dataset), elapsed_time))
         np.savetxt('train_result.txt', np.hstack((epoch + 1, epoch_loss / i, elapsed_time)), fmt='%2.4f')
         torch.save(model, os.path.join("./Checkpoint", 'model_%03d.pth' % (epoch + 1)))
