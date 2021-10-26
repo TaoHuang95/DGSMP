@@ -47,6 +47,7 @@ or download the [zip file](https://github.com/TaoHuang95/DGSMP/archive/main.zip)
 
 ### Download the training data
 1. CAVE:28 channels (https://pan.baidu.com/s/1ue26weBAbn61a7hyT9CDkg) PW:ixoe
+2. KAIST:28 channels (https://pan.baidu.com/s/1LfPqGe0R_tuQjCXC_fALZA) PW:5mmn
 
 
 ### Testing 
