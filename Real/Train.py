@@ -31,7 +31,7 @@ if __name__=="__main__":
             # nn.init.constant_(layer.bias, 0.0)
 
     ## Model Config
-    parser = argparse.ArgumentParser(description="PyTorch HSIFUSION")
+    parser = argparse.ArgumentParser(description="PyTorch Spectral Conpressive Imaing")
     parser.add_argument('--data_path_CAVE', default='./Data/CAVE_512_28/', type=str,
                         help='path of data')
     parser.add_argument('--data_path_KAIST', default='./Data/KAIST/28/', type=str,
